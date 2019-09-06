@@ -1,0 +1,26 @@
+ForegroundColour=200,200,200
+BackgroundColour=40,44,52
+CursorColour=200,200,200
+CursorType=block
+
+Green=152,195,121
+Black=45,49,57
+Blue=97,175,239
+Yellow=229,192,123
+Cyan=86,182,194
+Magenta=198,120,221
+Red=224,108,117
+White=215,218,224
+BrightBlack=127,132,142
+BrightBlue=82,139,255
+BrightGreen=152,195,121
+BrightYellow=229,192,123
+BrightCyan=86,182,194
+BrightMagenta=126,0,151
+BrightRed=244,71,71
+BrightWhite=215,218,224
+Columns=120
+Rows=30
+Transparency=medium
+FontHeight=18
+Font=Ubuntu Mono
