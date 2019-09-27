@@ -1,5 +1,5 @@
-# git-bash-themes
-🖌️ Configuration files of Git Bash themes.
+# terminal-themes
+🖌️ Configuration files of terminal themes.
 
 Created by : Mr Dk.
 
@@ -38,6 +38,8 @@ Overwrite the configuration file of _Windows Terminal_
 
 - [One Dark](https://github.com/Binaryify/OneDark-Pro)
 - [Eva Dark](https://github.com/fisheva/Eva-Theme)
+
+More to explore. 😁
 
 ---
 
