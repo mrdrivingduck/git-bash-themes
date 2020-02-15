@@ -1,4 +1,5 @@
 # terminal-themes
+
 🖌️ Configuration files of terminal themes.
 
 Created by : Mr Dk.
@@ -9,15 +10,13 @@ Nanjing, Jiangsu, China
 
 ---
 
-## MinTTY
+## Current Themes
 
-_[Git Bash](https://gitforwindows.org/)_ configuration files backup.
+- [One Dark](https://github.com/Binaryify/OneDark-Pro)
+- [Eva Dark](https://github.com/fisheva/Eva-Theme)
+- [One Light](https://github.com/akamud/vscode-theme-onelight)
 
-To use configuration file:
-
-* Rename the file from `xxx.minttyrc` to `.minttyrc`
-* Move the file into user's directory
-  * In __Windows__ - `C:\Users\<user_name>\`
+More to explore. 😁
 
 ---
 
@@ -34,12 +33,21 @@ Overwrite the configuration file of _Windows Terminal_
 
 ---
 
-## Current Themes
+## MinTTY
 
-- [One Dark](https://github.com/Binaryify/OneDark-Pro)
-- [Eva Dark](https://github.com/fisheva/Eva-Theme)
+_[Git Bash](https://gitforwindows.org/)_ configuration files backup.
 
-More to explore. 😁
+To use configuration file:
+
+* Rename the file from `xxx.minttyrc` to `.minttyrc`
+* Move the file into user's directory
+  * In __Windows__ - `C:\Users\<user_name>\`
+
+---
+
+## License
+
+Copyright © 2019-2020, Jingtang Zhang. ([GNU General Public License v3.0](LICENSE))
 
 ---
 
