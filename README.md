@@ -12,9 +12,11 @@ Nanjing, Jiangsu, China
 
 ## Current Themes
 
-- [One Dark](https://github.com/Binaryify/OneDark-Pro)
-- [Eva Dark](https://github.com/fisheva/Eva-Theme)
-- [One Light](https://github.com/akamud/vscode-theme-onelight)
+* [One Dark](https://github.com/Binaryify/OneDark-Pro)
+* [One Light](https://github.com/akamud/vscode-theme-onelight)
+* [Eva Dark](https://github.com/fisheva/Eva-Theme)
+* [Night Owl Dark](https://github.com/sdras/night-owl-vscode-theme)
+* [Night Owl Light](https://github.com/sdras/night-owl-vscode-theme)
 
 More to explore. 😁
 
@@ -22,26 +24,30 @@ More to explore. 😁
 
 ## Windows Terminal integrated with Git-Bash
 
-In `profiles.json` :
+Overwrite the configuration file of [_Windows Terminal_](https://github.com/microsoft/terminal) - `profiles.json` :
 
-* `bash.exe` of Git-Bash
-* `gwindows_logo.png` - Logo of Git for Windows
-* Set Git-Bash as start-up terminal
-* Color schemes of following themes
+* Add a new item into `"profiles"` array
+* Set the `"commandline"` property as the path of Git-Bash - `<git_path>/bin/bash.exe`
+* Set the `"icon"` property as the logo path of [_Git for Windows_](https://gitforwindows.org/) - `gwindows_logo.png`
+* Name this item by `"name"` property, e.g., `Git Bash`
+* Set the color scheme of this item by setting `"colorScheme"` property
+* Set this item as start-up terminal by setting `"global.defaultProfile"` property to the `"guid"` of this item
 
-Overwrite the configuration file of _Windows Terminal_
+🎃 The effect looks like this: (_Eva Dark_ theme)
+
+![git-for-win-in-terminal](git-for-win-in-terminal.png)
 
 ---
 
 ## MinTTY
 
-_[Git Bash](https://gitforwindows.org/)_ configuration files backup.
+_Git Bash_ configuration files under `.minttyrc/`.
 
 To use configuration file:
 
-* Rename the file from `xxx.minttyrc` to `.minttyrc`
+* Rename the file from `<theme_name>.minttyrc` to `.minttyrc`
 * Move the file into user's directory
-  * In __Windows__ - `C:\Users\<user_name>\`
+  * In _Windows_ - `C:\Users\<user_name>\`
 
 ---
 
